@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Hero Section</title>
+  </head>
+  <style>
+    /* copy font here */
+
+    * {
+      padding: 0;
+      margin: 0;
+      box-sizing: border-box;
+    }
+    html {
+      font-family: serif;
+    }
+    nav {
+      font-size: 18px;
+      font-weight: 700;
+      display: flex;
+      justify-content: space-between;
+    }
+    h1 {
+      font-size: 52px;
+      margin-bottom: 32px;
+    }
+    H2 {
+      margin-bottom: 48px;
+      font-size: 44px;
+    }
+    p {
+      font-size: 20px;
+      line-height: 1.6;
+      margin-bottom: 48px;
+    }
+    .btn {
+      font-size: 20px;
+      font-weight: 600px;
+      background-color: #e67e22;
+      color: #fff;
+      text-decoration: none;
+      display: inline-block;
+      padding: 16px 32px;
+      border-radius: 9px;
+    }
+    section {
+      padding: 96px 0;
+    }
+    header {
+      height: 100vh;
+      position: relative;
+      background-image: linear-gradient(
+          rgba(0, 0, 0, 0.6),
+          rgba(255, 255, 255, 0.6)
+        ),
+        url(hero.jpg);
+      background-size: cover;
+      color: #fff;
+    }
+    .container {
+      width: 1200px;
+      margin: 0 auto;
+    }
+    .header-container {
+      width: 1200px;
+      position: absolute;
+      left: 50%;
+      top: 50%;
+      transform: translate(-50%, -50%);
+    }
+    .header-containerinner {
+      width: 50%;
+    }
+  </style>
+  <body>
+    <header>
+      <nav class="container">
+        <div>logo</div>
+        <div>Navigation</div>
+      </nav>
+      <div class="header-container">
+        <div class="header-containerinner">
+          <h1>Healthy meal delivered to you at your door every single day</h1>
+          <p>
+            the smart things Lorem ipsum dolor sit amet consectetur adipisicing
+            elit. Deleniti, rem? Porro aperiam dolorem, exercitationem vero
+            corrupti facilis aut laudantium magnam? Rem nisi voluptatem corrupti
+            accusamus voluptatum eum repellat consequatur vitae.
+          </p>
+          <a href="#" class="btn">start eating well</a>
+        </div>
+      </div>
+    </header>
+    <section>
+      <div class="container">
+        <h2>Some healthy food</h2>
+        <p>Lorem ipsum obcaecati aliquid placeat at. placet at your own</p>
+      </div>
+    </section>
+  </body>
+</html>
